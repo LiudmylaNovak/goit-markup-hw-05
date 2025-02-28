@@ -515,6 +515,7 @@
         </div>
       </div>
     </footer>
+    <!-- #region Modal-->
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="submit">
@@ -569,6 +570,15 @@
               </svg>
             </div>
           </div>
+          <div class="modal-form-comment">
+            <label for="comment" class="modal-comment-label">Comment</label>
+            <textarea
+              name="modal-comment"
+              id="comment"
+              class="modal-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
           <div class="modal-form-checkbox">
             <input
               class="modal-check-input visually-hidden"
@@ -583,8 +593,10 @@
               <a class="modal-checkbox-link" href="">Privacy Policy</a>
             </label>
           </div>
+          <button class="modal-form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
+    <!-- #endregion Modal-->
   </body>
 </html>
