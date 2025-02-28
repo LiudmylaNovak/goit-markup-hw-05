@@ -607,7 +607,7 @@ button {
 
 .modal-close-icon:hover,
 .modal-close-icon:focus {
-  fill: #fff;
+  fill: #ffffff;
 }
 .modal-title {
   font-weight: 500;
@@ -666,7 +666,6 @@ button {
   margin-bottom: 16px;
 }
 .modal-comment-label {
-  margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
